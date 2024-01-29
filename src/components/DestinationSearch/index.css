@@ -1,0 +1,69 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+
+.content-container {
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: #252627;
+  text-align: center;
+}
+
+.searchInputEl {
+  background-color: #f1f5f9;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  width: 280px;
+  border-radius: 15px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f1f5f9;
+  border-radius: 15px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 330px;
+  align-self: center;
+}
+
+.search-logo {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+}
